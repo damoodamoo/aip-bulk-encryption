@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[StatusCodes]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Status] NVARCHAR(32) NOT NULL
+)

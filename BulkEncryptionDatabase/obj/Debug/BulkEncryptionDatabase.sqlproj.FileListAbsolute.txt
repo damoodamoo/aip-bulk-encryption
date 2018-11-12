@@ -1,0 +1,10 @@
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\bin\Debug\BulkEncryptionDatabase.dacpac
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\bin\Debug\BulkEncryptionDatabase.dll
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\bin\Debug\BulkEncryptionDatabase.pdb
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\BulkEncryptionDatabase.sqlprojResolveAssemblyReference.cache
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\BulkEncryptionDatabase.dll
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\BulkEncryptionDatabase.pdb
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\Model.xml
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\refactor.xml
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\postdeploy.sql
+C:\Users\damoo\source\repos\BulkEncryption\BulkEncryption\BulkEncryptionDatabase\obj\Debug\predeploy.sql

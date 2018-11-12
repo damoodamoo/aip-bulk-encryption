@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Labels] (Table)
+       [dbo].[Instances] (Table)
+       [dbo].[Servers] (Table)
+       [dbo].[GlobalConfig] (Table)
+       [dbo].[FileServers] (Table)
+       [dbo].[ServersFileServers] (Table)
+       [dbo].[Files] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Servers] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Files] (Default Constraint)
+       Foreign Key: unnamed constraint on [dbo].[Instances] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ServersFileServers] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ServersFileServers] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+       [dbo].[GetServerConfig] (Procedure)
+       [dbo].[LogServerComplete] (Procedure)
+       [dbo].[GetActiveInstances] (Procedure)
+       [dbo].[GetActiveServers] (Procedure)
+       [dbo].[LogScriptEnd] (Procedure)
+       [dbo].[LogScriptStart] (Procedure)
+       [dbo].[SelectNextFileToProcess] (Procedure)
+       [dbo].[UpdateFileRow] (Procedure)
+
+** Supporting actions

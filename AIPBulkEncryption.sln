@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "BulkEncryptionScript", "BulkEncryptionScript\BulkEncryptionScript.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BulkEncryptionDatabase", "BulkEncryptionDatabase\BulkEncryptionDatabase.sqlproj", "{6B8A7777-6A48-4C69-A4FA-5B3583812559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8A7777-6A48-4C69-A4FA-5B3583812559}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F34031B-E8EE-478B-9611-94178C3FC1D1}
+	EndGlobalSection
+EndGlobal

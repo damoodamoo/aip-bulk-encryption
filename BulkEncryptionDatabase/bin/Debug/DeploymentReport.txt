@@ -1,0 +1,43 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Files]
+       [dbo].[GlobalConfig]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Files].[FileServer] is being dropped, data loss could occur.
+       The column [dbo].[ServersFileServers].[FileServer] is being dropped, data loss could occur.
+       The column [dbo].[ServersFileServers].[FileServerId] on table [dbo].[ServersFileServers] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Files] (Default Constraint)
+       unnamed constraint on [dbo].[Files] (Foreign Key)
+       unnamed constraint on [dbo].[Files] (Foreign Key)
+     Table rebuild
+       [dbo].[Files] (Table)
+       [dbo].[GlobalConfig] (Table)
+     Alter
+       [dbo].[ServersFileServers] (Table)
+       [dbo].[SelectNextFileToProcess] (Procedure)
+       [dbo].[UpdateFileRow] (Procedure)
+     Create
+       [dbo].[FileServers] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Servers] (Default Constraint)
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ServersFileServers] (Foreign Key)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Files] (Foreign Key)
+
+The column [dbo].[Files].[FileServer] is being dropped, data loss could occur.
+The column [dbo].[ServersFileServers].[FileServer] is being dropped, data loss could occur.
+The column [dbo].[ServersFileServers].[FileServerId] on table [dbo].[ServersFileServers] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

@@ -1,0 +1,13 @@
+{
+  "SQLConnectionString": "sql-connection-string-here", // Standard SQL connection string
+  "LogFileName": "log", // Used to construct a log file, per thread
+  "ContinuousMode": "true", // Should we ignore the 'EndTime' column in the [Servers] table?
+  "EncryptionMode": "encrypt", // 'encrypt' or 'decrypt' (decrypt for rollback)
+  "TokenDecryptKeyFile": "C:\\location-of-folder-here\\token files\\keyfile.txt", // Location of the keyfile created by the TokenUtility.ps1 script. Used for decrypting the auth token stored in the DB.
+  "AvailableDriveLetters": "M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z", // Used to map long file paths > 260 characters
+  "RemovePreviousLabels": "false", // Invoke custom logic to remove any previous metadata added by a previous tool
+  "ScriptDirectory": "C:\\location-of-folder-here", // Script directory location on disk
+  "SingleFilePath": "C:\\test\\manual\\Blah.docx", // Used for manual op (such as Check single file status)
+  "ManualLabelGuid": "label-guid-here-for-manual-tests", // Used for manual op (such as Check single file status)
+  "ServerToStopOrReset": "davros" // Used for manual op - to stop / reset a server
+}

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[FileServers]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[FileServer] NVARCHAR(1023) NOT NULL
+)
